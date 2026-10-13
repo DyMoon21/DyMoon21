@@ -37,3 +37,4 @@ I'm a CS student learning programming and software development.
 ## 📫 Connect with Me
 
 - GitHub: https://github.com/DyMoon21
+- Email: yuedan892@gmail.com
