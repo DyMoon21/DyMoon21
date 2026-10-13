@@ -1,16 +1,39 @@
-## Hi there 👋
 
-<!--
-**DyMoon21/DyMoon21** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# 👋 Hi, I'm DyMoon21
 
-Here are some ideas to get you started:
+### Computer Science Student | Aspiring Software Engineer
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+I'm a CS student learning programming and software development.
+
+- 🌱 Currently learning C, Python and Data Structures
+- 💻 Interested in Backend Development and AI Agents
+- 🚀 Building projects and improving my coding skills
+- 📚 Learning Git, Linux and Computer Science fundamentals
+
+---
+
+## 🛠️ Tech Stack
+
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
+---
+
+## 📂 Featured Projects
+
+- [C Learning](https://github.com/DyMoon21/C-learning)
+- [Data Structure](https://github.com/DyMoon21/Data-Structure)
+
+---
+
+## 📊 GitHub Stats
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=DyMoon21&show_icons=true&theme=tokyonight)
+
+---
+
+## 📫 Connect with Me
+
+- GitHub: https://github.com/DyMoon21
