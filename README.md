@@ -34,6 +34,16 @@ I'm a CS student learning programming and software development.
 
 ---
 
+## 🐍 My Contributions
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DyMoon21/DyMoon21/output/snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/DyMoon21/DyMoon21/output/snake-light.svg">
+  <img alt="Snake animation eating my GitHub contribution grid" src="https://raw.githubusercontent.com/DyMoon21/DyMoon21/output/snake-light.svg">
+</picture>
+
+---
+
 ## 📫 Connect with Me
 
 - GitHub: https://github.com/DyMoon21

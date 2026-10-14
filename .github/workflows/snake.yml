@@ -1,0 +1,43 @@
+name: Generate Snake Animation
+
+on:
+  # 每 12 小时自动刷新一次，让蛇吃到最新的 contribution
+  schedule:
+    - cron: "0 */12 * * *"
+  # 允许在 Actions 页面手动触发
+  workflow_dispatch:
+  # 每次推送到 main 时也重新生成
+  push:
+    branches:
+      - main
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    strategy:
+      matrix:
+        include:
+          - variant: light
+            color_snake: "#216e39"
+            color_dots: "#ebedf0,#9be9a8,#40c463,#30a14e,#216e39"
+          - variant: dark
+            color_snake: "#39d353"
+            color_dots: "#161b22,#0e4429,#006d32,#26a641,#39d353"
+
+    steps:
+      - name: Generate ${{ matrix.variant }} snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake-${{ matrix.variant }}.svg?color_snake=${{ matrix.color_snake }}&color_dots=${{ matrix.color_dots }}
+
+      - name: Push to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
