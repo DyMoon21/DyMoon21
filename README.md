@@ -32,7 +32,7 @@ I'm a CS student learning programming and software development.
 
 ## 📊 GitHub Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=DyMoon21&show_icons=true&theme=tokyonight)
++ ![GitHub Stats](https://github-stats-extended.vercel.app/api?username=DyMoon21&show_icons=true&theme=tokyonight)
 
 ---
 
